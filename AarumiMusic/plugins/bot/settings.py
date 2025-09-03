@@ -86,8 +86,10 @@ async def settings_back_markup(client, query: CallbackQuery, _):
             InputMediaPhoto(
                 media=random.choice(AARUMI_PIC),
                 caption=_["start_2"].format(query.from_user.mention, app.mention),
+                has_spoiler=True
             ),
             reply_markup=InlineKeyboardMarkup(private_panel(_)),
+            
         )
     return await query.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(setting_markup(_)))
 
