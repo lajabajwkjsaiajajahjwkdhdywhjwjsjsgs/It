@@ -6,6 +6,9 @@ from pyrogram import filters
 
 load_dotenv()
 
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", '30DxNexGenBots743082') # youtube song api ke # -------------------------------------------------------------------------#
+#--
 
 API_ID = int(getenv("API_ID", ""))
 
