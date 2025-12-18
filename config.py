@@ -10,7 +10,7 @@ API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz') #youtube song
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
 API_KEY = getenv("API_KEY", "NxGBNexGenBotsd4f774") 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "29448785"))
 
 API_HASH = getenv("API_HASH", "")
 
