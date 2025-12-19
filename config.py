@@ -6,9 +6,9 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", "NxGBNexGenBots4556e3") 
+API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
+VIDEO_API_URL = getenv("NxGBNexGenBotsc75140", 'https://api.video.nexgenbots.xyz')
+API_KEY = getenv("NxGBNexGenBotsc75140", None) # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
 
 API_ID = int(getenv("API_ID", "29448785"))
 
