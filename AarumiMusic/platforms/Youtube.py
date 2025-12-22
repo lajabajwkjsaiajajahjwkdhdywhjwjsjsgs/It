@@ -17,8 +17,8 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from py_yt import VideosSearch
-from ROCKYMUSIC.utils.database import is_on_off
-from ROCKYMUSIC.utils.formatters import time_to_seconds
+from AarumiMusic.utils.database import is_on_off
+from AarumiMusic.utils.formatters import time_to_seconds
 import os
 import glob
 import random
